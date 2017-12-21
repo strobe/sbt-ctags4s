@@ -1,0 +1,4 @@
+#> ctagsAdd org.scala-lang:scala-library
+> ctagsDownload
+> ctagsAdd *
+$ exists TAGS
