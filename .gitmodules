@@ -1,0 +1,3 @@
+[submodule "sctags"]
+	path = sctags
+	url = git@github.com:strobe/sctags.git
