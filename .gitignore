@@ -1,6 +1,9 @@
-target
-.project
-.classpath
-tags
-ctags
+TAGS
+.projectile
+.ensime
+.ensime_cache
+project/target/*
+project/project/*
+target/*
 .lib-src
+generate-ctags.sh
