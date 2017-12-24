@@ -1,1 +1,1 @@
-addSbtPlugin("com.kalmanb.sbt" % "sbt-ctags" % "0.4.0-SNAPSHOT")
+addSbtPlugin("cc.evgeniy" % "sbt-ctags4s" % "0.1.1")

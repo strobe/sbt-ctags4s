@@ -1,5 +1,5 @@
-addSbtPlugin("net.virtual-void" % "sbt-cross-building" % "0.8.1")
+addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.2")
 
 libraryDependencies += { "org.scala-sbt" % "scripted-plugin" % sbtVersion.value }
 
-addSbtPlugin("com.kalmanb.sbt" % "sbt-ctags" % "0.4.0-SNAPSHOT")
+//addSbtPlugin("net.virtual-void" % "sbt-dependency-graph" % "0.9.0")
