@@ -7,7 +7,7 @@ Currently works only with Sbt 0.13x
 
 ## About
 
-It able to generate ctags file (currently in emacs format (aka etags)) for you
+It able generate ctags file (currently in emacs format (aka etags)) for your
 project with tags for dependencies.
 (TAGS file allow you to get `go to definition` functionality for Scala files at
 text editors like emacs which has `ctags` support).
