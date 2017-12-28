@@ -3,7 +3,7 @@ sbt-ctags4s
 ### Warn
 
 it's still experemental.
-Currently works with Sbt 0.13x
+Currently works only with Sbt 0.13x
 
 ## About
 
@@ -24,10 +24,9 @@ In compasion to `Exuberant Ctags` current backend has better undestanding of
 
 Just add following to your `./project/plugins.sbt` file:
 
-    ```
-        libraryDependencies += "cc.evgeniy" %% "sctags" % "1.0.1"
-        addSbtPlugin("cc.evgeniy" % "sbt-ctags4s" % "0.1.1")
-    ```
+    libraryDependencies += "cc.evgeniy" %% "sctags" % "1.0.1"
+    addSbtPlugin("cc.evgeniy" % "sbt-ctags4s" % "0.1.1")
+    
 
 ## How it works - example
 First update your dependencies:
