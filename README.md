@@ -6,7 +6,7 @@ it's still experemental.
 
 ### Status
 Currently works only if `sctags` used as CLI utility if SCALA_LIB and SCALA_HOME
-enviroument variables configured according to `sctags` readme (see #1).
+enviroument variables configured according to `sctags` readme (see [#1](/../../issues/1)).
 
 (Currently works only with Sbt 0.13x)
 
@@ -32,7 +32,7 @@ Just add following to your `./project/plugins.sbt` file:
     // libraryDependencies += "cc.evgeniy" %% "sctags" % "1.0.1" // this not required currently because of current classpath configuration issue see Warn section of readme
     addSbtPlugin("cc.evgeniy" % "sbt-ctags4s" % "0.1.1")
     
-Because of #1 currently you have to install sctags as separate CLI utility and provide correct set up
+Because of [#1](/../../issues/1) currently you have to install sctags as separate CLI utility and provide correct set up
 for SCALA_HOME and SCALA_LIB.
     
 
@@ -79,7 +79,7 @@ You can remove a library for your tags file with:
 
 
 ## Roadmap
-- [] fix classpath setup issue #1
+- [] fix classpath setup issue [#1](/../../issues/1)
 - [] sbt settings which allow choose result format (etags, ctags) and backend kind (ctags, SCTags etc.)
 - [] sbt obsolete API reactor
 - [] add Sbt 1x support (with crossbuilding to 0.13x)
