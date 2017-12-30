@@ -167,8 +167,8 @@ ent location */
    */
   def updateCtags(baseDirectory: File): Unit = {
     // "ctags -R" !
-    // "sctags -f TAGS -e -R .lib-src/* *" !!
 
+    /*
     val dirs  = Files.list(Paths.get(".lib-src/")).toArray.toList.map(_.asInstanceOf[java.nio.file.Path])
     val files = Files.list(Paths.get(".")).toArray.toList.map(_.asInstanceOf[java.nio.file.Path])
 
@@ -180,6 +180,8 @@ ent location */
     //println("[2]<<<@==@==@>>> " + dirsArgs)
 
     SCTags.main(args)
+    */
+    "sctags -f TAGS -e -R .lib-src/* *" !
   }
 
   import Project._
